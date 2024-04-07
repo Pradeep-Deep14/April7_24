@@ -10,3 +10,11 @@ for fruit in Fruits:
 
 print("Count of unique letters for each element:")
 print(unique_letters_dict)
+
+#Easy Method
+
+fruits = ['apple', 'banana', 'orange', 'kiwi', 'strawberry']
+
+for fruit in fruits:
+    unique_letters = set(fruit)
+    print(f"{fruit}: {len(unique_letters)} unique letters")
